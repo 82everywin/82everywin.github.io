@@ -1,9 +1,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: 82everywin Develop Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
+  This blog is "한현승" blog.
 baseurl: "/bay" # the subpath of the site
 url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
@@ -13,32 +13,28 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
-    - name: Blog
+    - name: View
+    - name: Picture
+    - name: Music
+    - name: Settings
+    - name: work
+    - name: blog
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
+      value: 82everywin@naver.com
+      link: mailto:82everywin@naver.com
     - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      value: KaKao - 82gustmd
+      # link:
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
+    - name: Instargram
+      link: http://twitter.com/ivory_roww
       username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+      link: http://github.com/82everywin
 
 # Build settings
 markdown: kramdown
@@ -53,7 +49,7 @@ exclude:
   - .jekyll-cache/
   - feed.xml
   - gemfiles/
-  - Gemfile
+  - GemfileS
   - Gemfile.lock
   - vendor/bundle/
   - vendor/cache/
